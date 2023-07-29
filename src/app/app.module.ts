@@ -12,7 +12,8 @@ import { ContactComponent } from './components/contact/contact.component';
 import { ErrorComponent } from './components/error/error.component';
 import { DetailComponent } from './components/detail/detail.component';
 
-
+import * as $ from 'jquery';
+import { SliderComponent } from './components/slider/slider.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { DetailComponent } from './components/detail/detail.component';
     ContactComponent,
     ErrorComponent,
     DetailComponent,
+    SliderComponent,
     
   ],
   imports: [
